@@ -1,0 +1,6 @@
+ShiftRegister	KEYWORD1
+loadValue	KEYWORD2
+loadValues	KEYWORD2
+setDataPin	KEYWORD2
+setClockPin	KEYWORD2
+setLatchPin	KEYWORD2
