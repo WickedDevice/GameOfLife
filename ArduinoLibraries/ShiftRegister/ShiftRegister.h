@@ -27,8 +27,8 @@ class ShiftRegister{
 public:
     ShiftRegister();
     ShiftRegister(uint8_t data_pin, uint8_t clk_pin, uint8_t latch_pin);
-    void loadValues(const uint16_t * const value_array, const uint16_t num_bytes, const uint8_t byte_order, const uint8_t bit_order);
-    void loadValue(const uint16_t value, const uint8_t bit_order);
+    void loadValues(const uint16_t * const value_array, const uint16_t num_bytes);
+    void loadValue(const uint16_t value);
     void setDataPin(uint8_t data_pin);
     void setClockPin(uint8_t clock_pin);
     void setLatchPin(uint8_t latch_pin);
